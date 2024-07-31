@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#famous-places {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.place {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.place h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+.place img {
+    max-width: 35%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.place p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.place iframe{
+    max-width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display:inline
+}
+.place iframe{
+    margin-bottom: 50px;
+    float: right;
+}
+.icon img{
+    display: inline;
+    width: 75px;
+    height: auto;
+    float: right;
+    position:fixed;
+    bottom:25px;
+    right: 5px;
+}

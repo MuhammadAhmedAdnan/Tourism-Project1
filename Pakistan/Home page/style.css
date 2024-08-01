@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.hero {
+
+    width: 100%;
+}
+
+
+.hero img {
+    width: 100%;
+    height: 50%;
+    display: block;
+
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.individual-travel {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.travel-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+
+    color: white;
+    opacity: 0.7;
+}
+
+.option img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.option p {
+    margin-top: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    text-decoration-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.option1 {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    font-size: 5em;
+    color: white;
+    opacity: 0.7;
+}
+
+.option1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 99, 71, 0.6);
+}
+
+.option:hover .overlay {
+    opacity: 1;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(76, 175, 80, 0.6);
+}
+
+.option:hover .overlay2 {
+    opacity: 1;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(240, 230, 140, 0.6);
+}
+
+.option:hover .overlay3 {
+    opacity: 1;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(135, 206, 235, 0.6);
+}
+
+.option:hover .overlay4 {
+    opacity: 1;
+}
+.icon img{
+    display: inline;
+    width: 75px;
+    height: auto;
+    float: right;
+    border: 2px solid black;
+    position:fixed;
+    bottom:5px;
+    right: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 50%;
+}
